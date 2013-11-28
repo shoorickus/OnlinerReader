@@ -19,6 +19,7 @@
 		D4CF91FA1847D86C00E5CD4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CF91E21847D86C00E5CD4F /* UIKit.framework */; };
 		D4CF92021847D86C00E5CD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CF92001847D86C00E5CD4F /* InfoPlist.strings */; };
 		D4CF92041847D86C00E5CD4F /* OnlinerReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF92031847D86C00E5CD4F /* OnlinerReaderTests.m */; };
+		D4CF920E1847D88300E5CD4F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D4CF91FF1847D86C00E5CD4F /* OnlinerReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnlinerReaderTests-Info.plist"; sourceTree = "<group>"; };
 		D4CF92011847D86C00E5CD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4CF92031847D86C00E5CD4F /* OnlinerReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlinerReaderTests.m; sourceTree = "<group>"; };
+		D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		D4CF91E41847D86C00E5CD4F /* OnlinerReader */ = {
 			isa = PBXGroup;
 			children = (
+				D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */,
 				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
 				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
 				D4CF91F01847D86C00E5CD4F /* Images.xcassets */,
@@ -221,6 +224,7 @@
 			files = (
 				D4CF91E91847D86C00E5CD4F /* InfoPlist.strings in Resources */,
 				D4CF91F11847D86C00E5CD4F /* Images.xcassets in Resources */,
+				D4CF920E1847D88300E5CD4F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
