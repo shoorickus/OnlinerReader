@@ -49,7 +49,7 @@
 		D4CF91FF1847D86C00E5CD4F /* OnlinerReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnlinerReaderTests-Info.plist"; sourceTree = "<group>"; };
 		D4CF92011847D86C00E5CD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4CF92031847D86C00E5CD4F /* OnlinerReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlinerReaderTests.m; sourceTree = "<group>"; };
-		D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,6 +445,7 @@
 				D4CF92091847D86C00E5CD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4CF920A1847D86C00E5CD4F /* Build configuration list for PBXNativeTarget "OnlinerReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				D4CF920C1847D86C00E5CD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
