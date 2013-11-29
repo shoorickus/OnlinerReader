@@ -4,22 +4,25 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Onliner Reader-->
+        <!--Forum Base Section View Controller - Onliner Reader-->
         <scene sceneID="vr6-R5-zeB">
             <objects>
-                <tableViewController id="kRH-KH-VJV" sceneMemberID="viewController">
+                <tableViewController id="kRH-KH-VJV" customClass="ForumBaseSectionViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mSf-31-IUX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Nci-CU-IUB">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Nci-CU-IUB">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nci-CU-IUB" id="97u-D6-IRd">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="r5Q-2u-Ff7" kind="push" id="2ya-Zy-Fpl"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
@@ -27,7 +30,36 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQf-h0-YQp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="515" y="164"/>
+            <point key="canvasLocation" x="-33" y="76"/>
+        </scene>
+        <!--Table View Controller - Forum section-->
+        <scene sceneID="0LK-Co-8Rl">
+            <objects>
+                <tableViewController id="r5Q-2u-Ff7" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hk0-k5-gOo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="rKs-I2-GNW">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rKs-I2-GNW" id="K3V-ZZ-MXJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="r5Q-2u-Ff7" id="N5C-yD-FOo"/>
+                            <outlet property="delegate" destination="r5Q-2u-Ff7" id="SD0-s2-f4j"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Forum section" id="C0o-NL-y5p"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WVU-mR-Vzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="76"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ksb-ym-E8K">
@@ -42,9 +74,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBy-Om-3ud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="105" y="164"/>
+            <point key="canvasLocation" x="-457" y="76"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.98943418260000005" green="0.15459811940000001" blue="0.1558144001" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

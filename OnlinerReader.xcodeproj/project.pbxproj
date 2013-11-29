@@ -20,6 +20,11 @@
 		D4CF92021847D86C00E5CD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CF92001847D86C00E5CD4F /* InfoPlist.strings */; };
 		D4CF92041847D86C00E5CD4F /* OnlinerReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF92031847D86C00E5CD4F /* OnlinerReaderTests.m */; };
 		D4CF920E1847D88300E5CD4F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */; };
+		D4F07D181848C37500ACB115 /* ForumBaseSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D171848C37500ACB115 /* ForumBaseSectionViewController.m */; };
+		D4F07D1A1848C51500ACB115 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F07D191848C51500ACB115 /* libxml2.dylib */; };
+		D4F07D211848C56D00ACB115 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D1E1848C56D00ACB115 /* TFHpple.m */; };
+		D4F07D221848C56D00ACB115 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D1F1848C56D00ACB115 /* TFHppleElement.m */; };
+		D4F07D231848C56D00ACB115 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D201848C56D00ACB115 /* XPathQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,15 @@
 		D4CF92011847D86C00E5CD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4CF92031847D86C00E5CD4F /* OnlinerReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlinerReaderTests.m; sourceTree = "<group>"; };
 		D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D4F07D161848C37500ACB115 /* ForumBaseSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumBaseSectionViewController.h; sourceTree = "<group>"; };
+		D4F07D171848C37500ACB115 /* ForumBaseSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumBaseSectionViewController.m; sourceTree = "<group>"; };
+		D4F07D191848C51500ACB115 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D4F07D1B1848C56D00ACB115 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		D4F07D1C1848C56D00ACB115 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		D4F07D1D1848C56D00ACB115 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		D4F07D1E1848C56D00ACB115 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		D4F07D1F1848C56D00ACB115 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		D4F07D201848C56D00ACB115 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F07D1A1848C51500ACB115 /* libxml2.dylib in Frameworks */,
 				D4CF91E11847D86C00E5CD4F /* CoreGraphics.framework in Frameworks */,
 				D4CF91E31847D86C00E5CD4F /* UIKit.framework in Frameworks */,
 				D4CF91DF1847D86C00E5CD4F /* Foundation.framework in Frameworks */,
@@ -98,6 +113,7 @@
 		D4CF91DD1847D86C00E5CD4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4F07D191848C51500ACB115 /* libxml2.dylib */,
 				D4CF91DE1847D86C00E5CD4F /* Foundation.framework */,
 				D4CF91E01847D86C00E5CD4F /* CoreGraphics.framework */,
 				D4CF91E21847D86C00E5CD4F /* UIKit.framework */,
@@ -109,6 +125,8 @@
 		D4CF91E41847D86C00E5CD4F /* OnlinerReader */ = {
 			isa = PBXGroup;
 			children = (
+				D4F07D241848C57500ACB115 /* hpple */,
+				D4F07D151848C34500ACB115 /* ViewControllers */,
 				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
 				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
 				D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */,
@@ -145,6 +163,28 @@
 				D4CF92001847D86C00E5CD4F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4F07D151848C34500ACB115 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07D161848C37500ACB115 /* ForumBaseSectionViewController.h */,
+				D4F07D171848C37500ACB115 /* ForumBaseSectionViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4F07D241848C57500ACB115 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07D1B1848C56D00ACB115 /* TFHpple.h */,
+				D4F07D1C1848C56D00ACB115 /* TFHppleElement.h */,
+				D4F07D1D1848C56D00ACB115 /* XPathQuery.h */,
+				D4F07D1E1848C56D00ACB115 /* TFHpple.m */,
+				D4F07D1F1848C56D00ACB115 /* TFHppleElement.m */,
+				D4F07D201848C56D00ACB115 /* XPathQuery.m */,
+			);
+			name = hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F07D181848C37500ACB115 /* ForumBaseSectionViewController.m in Sources */,
 				D4CF91EF1847D86C00E5CD4F /* AppDelegate.m in Sources */,
 				D4CF91EB1847D86C00E5CD4F /* main.m in Sources */,
+				D4F07D211848C56D00ACB115 /* TFHpple.m in Sources */,
+				D4F07D231848C56D00ACB115 /* XPathQuery.m in Sources */,
+				D4F07D221848C56D00ACB115 /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +409,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OnlinerReader/OnlinerReader-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "OnlinerReader/OnlinerReader-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -378,8 +428,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OnlinerReader/OnlinerReader-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "OnlinerReader/OnlinerReader-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
