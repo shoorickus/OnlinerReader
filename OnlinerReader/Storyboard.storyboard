@@ -78,7 +78,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Onliner Reader" id="UA0-gN-aKI">
-                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="compose" id="Kk3-jD-cWQ">
+                        <barButtonItem key="leftBarButtonItem" image="Preferences" style="done" id="Kk3-jD-cWQ">
                             <connections>
                                 <segue destination="2jT-du-LYN" kind="modal" id="tB3-sK-6gy"/>
                             </connections>
@@ -276,6 +276,9 @@
             <point key="canvasLocation" x="1298" y="76"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Preferences" width="30" height="30"/>
+    </resources>
     <color key="tintColor" red="0.98943418260000005" green="0.15459811940000001" blue="0.1558144001" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
