@@ -8,12 +8,6 @@
       "idiom" : "iphone",
       "scale" : "2x",
       "filename" : "cogs.png"
-    },
-    {
-      "idiom" : "iphone",
-      "filename" : "cogs-1.png",
-      "subtype" : "retina4",
-      "scale" : "2x"
     }
   ],
   "info" : {
