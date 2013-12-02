@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		D459467C184934AF00E76C99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D459467B184934AF00E76C99 /* README.md */; };
 		D4B36187184CF44300CC1CBF /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B36186184CF44300CC1CBF /* PreferencesViewController.m */; };
+		D4C5FD92184D2A4F006C6306 /* ForumSectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C5FD91184D2A4F006C6306 /* ForumSectionsViewController.m */; };
+		D4C5FD95184D2C7D006C6306 /* SectionThreadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C5FD94184D2C7D006C6306 /* SectionThreadsViewController.m */; };
+		D4C5FD98184D2CAB006C6306 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C5FD97184D2CAB006C6306 /* ThreadViewController.m */; };
+		D4C5FD9D184D2CFE006C6306 /* NewsMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C5FD9C184D2CFE006C6306 /* NewsMainPageViewController.m */; };
 		D4CF91DF1847D86C00E5CD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CF91DE1847D86C00E5CD4F /* Foundation.framework */; };
 		D4CF91E11847D86C00E5CD4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CF91E01847D86C00E5CD4F /* CoreGraphics.framework */; };
 		D4CF91E31847D86C00E5CD4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CF91E21847D86C00E5CD4F /* UIKit.framework */; };
@@ -22,7 +26,7 @@
 		D4CF92021847D86C00E5CD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CF92001847D86C00E5CD4F /* InfoPlist.strings */; };
 		D4CF92041847D86C00E5CD4F /* OnlinerReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF92031847D86C00E5CD4F /* OnlinerReaderTests.m */; };
 		D4CF920E1847D88300E5CD4F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */; };
-		D4F07D181848C37500ACB115 /* ForumBaseSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D171848C37500ACB115 /* ForumBaseSectionViewController.m */; };
+		D4F07D181848C37500ACB115 /* ForumMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D171848C37500ACB115 /* ForumMainPageViewController.m */; };
 		D4F07D1A1848C51500ACB115 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F07D191848C51500ACB115 /* libxml2.dylib */; };
 		D4F07D211848C56D00ACB115 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D1E1848C56D00ACB115 /* TFHpple.m */; };
 		D4F07D221848C56D00ACB115 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F07D1F1848C56D00ACB115 /* TFHppleElement.m */; };
@@ -43,6 +47,14 @@
 		D459467B184934AF00E76C99 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		D4B36185184CF44300CC1CBF /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
 		D4B36186184CF44300CC1CBF /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		D4C5FD90184D2A4F006C6306 /* ForumSectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumSectionsViewController.h; sourceTree = "<group>"; };
+		D4C5FD91184D2A4F006C6306 /* ForumSectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumSectionsViewController.m; sourceTree = "<group>"; };
+		D4C5FD93184D2C7D006C6306 /* SectionThreadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionThreadsViewController.h; sourceTree = "<group>"; };
+		D4C5FD94184D2C7D006C6306 /* SectionThreadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionThreadsViewController.m; sourceTree = "<group>"; };
+		D4C5FD96184D2CAB006C6306 /* ThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
+		D4C5FD97184D2CAB006C6306 /* ThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
+		D4C5FD9B184D2CFE006C6306 /* NewsMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsMainPageViewController.h; sourceTree = "<group>"; };
+		D4C5FD9C184D2CFE006C6306 /* NewsMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsMainPageViewController.m; sourceTree = "<group>"; };
 		D4CF91DB1847D86C00E5CD4F /* OnlinerReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlinerReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CF91DE1847D86C00E5CD4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4CF91E01847D86C00E5CD4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,8 +72,8 @@
 		D4CF92011847D86C00E5CD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4CF92031847D86C00E5CD4F /* OnlinerReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlinerReaderTests.m; sourceTree = "<group>"; };
 		D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		D4F07D161848C37500ACB115 /* ForumBaseSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumBaseSectionViewController.h; sourceTree = "<group>"; };
-		D4F07D171848C37500ACB115 /* ForumBaseSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumBaseSectionViewController.m; sourceTree = "<group>"; };
+		D4F07D161848C37500ACB115 /* ForumMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumMainPageViewController.h; sourceTree = "<group>"; };
+		D4F07D171848C37500ACB115 /* ForumMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumMainPageViewController.m; sourceTree = "<group>"; };
 		D4F07D191848C51500ACB115 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		D4F07D1B1848C56D00ACB115 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
 		D4F07D1C1848C56D00ACB115 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
@@ -96,6 +108,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4C5FD99184D2CE3006C6306 /* forum */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07D161848C37500ACB115 /* ForumMainPageViewController.h */,
+				D4F07D171848C37500ACB115 /* ForumMainPageViewController.m */,
+				D4C5FD90184D2A4F006C6306 /* ForumSectionsViewController.h */,
+				D4C5FD91184D2A4F006C6306 /* ForumSectionsViewController.m */,
+				D4C5FD93184D2C7D006C6306 /* SectionThreadsViewController.h */,
+				D4C5FD94184D2C7D006C6306 /* SectionThreadsViewController.m */,
+				D4C5FD96184D2CAB006C6306 /* ThreadViewController.h */,
+				D4C5FD97184D2CAB006C6306 /* ThreadViewController.m */,
+			);
+			name = forum;
+			sourceTree = "<group>";
+		};
+		D4C5FD9A184D2CE9006C6306 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				D4C5FD9B184D2CFE006C6306 /* NewsMainPageViewController.h */,
+				D4C5FD9C184D2CFE006C6306 /* NewsMainPageViewController.m */,
+			);
+			name = news;
+			sourceTree = "<group>";
+		};
 		D4CF91D21847D86B00E5CD4F = {
 			isa = PBXGroup;
 			children = (
@@ -174,8 +210,8 @@
 		D4F07D151848C34500ACB115 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D4F07D161848C37500ACB115 /* ForumBaseSectionViewController.h */,
-				D4F07D171848C37500ACB115 /* ForumBaseSectionViewController.m */,
+				D4C5FD9A184D2CE9006C6306 /* news */,
+				D4C5FD99184D2CE3006C6306 /* forum */,
 				D4B36185184CF44300CC1CBF /* PreferencesViewController.h */,
 				D4B36186184CF44300CC1CBF /* PreferencesViewController.m */,
 			);
@@ -292,10 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F07D181848C37500ACB115 /* ForumBaseSectionViewController.m in Sources */,
+				D4F07D181848C37500ACB115 /* ForumMainPageViewController.m in Sources */,
 				D4CF91EF1847D86C00E5CD4F /* AppDelegate.m in Sources */,
+				D4C5FD98184D2CAB006C6306 /* ThreadViewController.m in Sources */,
+				D4C5FD9D184D2CFE006C6306 /* NewsMainPageViewController.m in Sources */,
 				D4CF91EB1847D86C00E5CD4F /* main.m in Sources */,
+				D4C5FD95184D2C7D006C6306 /* SectionThreadsViewController.m in Sources */,
 				D4F07D211848C56D00ACB115 /* TFHpple.m in Sources */,
+				D4C5FD92184D2A4F006C6306 /* ForumSectionsViewController.m in Sources */,
 				D4F07D231848C56D00ACB115 /* XPathQuery.m in Sources */,
 				D4B36187184CF44300CC1CBF /* PreferencesViewController.m in Sources */,
 				D4F07D221848C56D00ACB115 /* TFHppleElement.m in Sources */,

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PNd-6c-l8v">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--News Main PageV Iew Controller - News-->
         <scene sceneID="WdX-JW-pNu">
             <objects>
-                <tableViewController id="dL8-75-jtu" sceneMemberID="viewController">
+                <tableViewController id="dL8-75-jtu" customClass="NewsMainPageVIewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lD6-LH-KiB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,16 +27,16 @@
                             <outlet property="delegate" destination="dL8-75-jtu" id="iB3-Nw-8tf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="y4R-Ya-V7e"/>
+                    <navigationItem key="navigationItem" title="News" id="y4R-Ya-V7e"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NkC-y4-KhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-53" y="-481"/>
         </scene>
-        <!--Table View Controller - Onliner Reader-->
+        <!--Forum Main Page View Controller - Onliner Reader-->
         <scene sceneID="vr6-R5-zeB">
             <objects>
-                <tableViewController id="kRH-KH-VJV" sceneMemberID="viewController">
+                <tableViewController id="kRH-KH-VJV" customClass="ForumMainPageViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="mSf-31-IUX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,13 +163,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJB-h9-D97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="857" y="756"/>
         </scene>
-        <!--Table View Controller - Forum section-->
+        <!--Forum Sections View Controller - Forum section-->
         <scene sceneID="0LK-Co-8Rl">
             <objects>
-                <tableViewController id="r5Q-2u-Ff7" sceneMemberID="viewController">
+                <tableViewController id="r5Q-2u-Ff7" customClass="ForumSectionsViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hk0-k5-gOo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="508" y="90"/>
         </scene>
-        <!--Table View Controller - Threads-->
+        <!--Section Threads View Controller - Threads-->
         <scene sceneID="oJW-px-70L">
             <objects>
-                <tableViewController id="umo-z3-mgz" sceneMemberID="viewController">
+                <tableViewController id="umo-z3-mgz" customClass="SectionThreadsViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="N4N-ci-faM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="939" y="90"/>
         </scene>
-        <!--Table View Controller - Thread-->
+        <!--Thread View Controller - Thread-->
         <scene sceneID="94G-Ha-ADb">
             <objects>
-                <tableViewController id="GPL-N1-orC" sceneMemberID="viewController">
+                <tableViewController id="GPL-N1-orC" customClass="ThreadViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="k5J-M8-Hkh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -291,9 +290,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jht-sC-w0l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="426" y="756"/>
-
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pCj-iv-6Uq">

@@ -1,18 +1,18 @@
 //
-//  ForumBaseSectionViewController.m
+//  ForumSectionTopicsViewController.m
 //  OnlinerReader
 //
-//  Created by Dmitry Savitskiy on 11/29/13.
+//  Created by Dmitry Savitskiy on 02/12/13.
 //  Copyright (c) 2013 Dmitry Savitskiy. All rights reserved.
 //
 
-#import "ForumBaseSectionViewController.h"
+#import "ForumSectionsViewController.h"
 
-@interface ForumBaseSectionViewController ()
+@interface ForumSectionsViewController ()
 
 @end
 
-@implementation ForumBaseSectionViewController
+@implementation ForumSectionsViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
