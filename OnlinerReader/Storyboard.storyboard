@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--News Main PageV Iew Controller - News-->
+        <!--News Main Page View Controller - News-->
         <scene sceneID="WdX-JW-pNu">
             <objects>
-                <tableViewController id="dL8-75-jtu" customClass="NewsMainPageVIewController" sceneMemberID="viewController">
+                <tableViewController id="dL8-75-jtu" customClass="NewsMainPageViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lD6-LH-KiB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
