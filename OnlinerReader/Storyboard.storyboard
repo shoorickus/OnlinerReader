@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PNd-6c-l8v">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
         <!--Table View Controller-->
@@ -163,7 +163,8 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJB-h9-D97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015" y="858"/>
+
+            <point key="canvasLocation" x="857" y="756"/>
         </scene>
         <!--Table View Controller - Forum section-->
         <scene sceneID="0LK-Co-8Rl">
@@ -290,7 +291,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jht-sC-w0l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="489" y="858"/>
+
+            <point key="canvasLocation" x="426" y="756"/>
+
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pCj-iv-6Uq">
