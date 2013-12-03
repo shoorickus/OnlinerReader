@@ -120,4 +120,10 @@
 
  */
 
+- (IBAction)onRefreshControllRelease:(id)sender
+{
+    UIRefreshControl *refreshControll = sender;
+    [refreshControll endRefreshing];
+}
+
 @end
