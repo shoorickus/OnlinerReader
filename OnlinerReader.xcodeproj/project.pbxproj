@@ -126,6 +126,17 @@
 			path = Resources/UI;
 			sourceTree = "<group>";
 		};
+		D46EAC6F184FABB300EA0712 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07D241848C57500ACB115 /* hpple */,
+				D4F07D151848C34500ACB115 /* ViewControllers */,
+				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
+				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		D4C5FD99184D2CE3006C6306 /* Forum */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,10 +198,7 @@
 			children = (
 				D4CF91E51847D86C00E5CD4F /* Supporting Files */,
 				D46EAC6D184FA9FA00EA0712 /* Resources */,
-				D4F07D241848C57500ACB115 /* hpple */,
-				D4F07D151848C34500ACB115 /* ViewControllers */,
-				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
-				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
+				D46EAC6F184FABB300EA0712 /* Source */,
 			);
 			path = OnlinerReader;
 			sourceTree = "<group>";
