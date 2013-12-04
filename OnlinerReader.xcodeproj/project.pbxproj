@@ -65,7 +65,7 @@
 		D4CF91EC1847D86C00E5CD4F /* OnlinerReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnlinerReader-Prefix.pch"; sourceTree = "<group>"; };
 		D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4CF91F01847D86C00E5CD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4CF91F01847D86C00E5CD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
 		D4CF91F61847D86C00E5CD4F /* OnlinerReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlinerReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CF91F71847D86C00E5CD4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D4CF91FF1847D86C00E5CD4F /* OnlinerReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnlinerReaderTests-Info.plist"; sourceTree = "<group>"; };
@@ -108,7 +108,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D4C5FD99184D2CE3006C6306 /* forum */ = {
+		D46EAC6D184FA9FA00EA0712 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D46EAC6E184FAA0E00EA0712 /* UI */,
+				D4CF91F01847D86C00E5CD4F /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D46EAC6E184FAA0E00EA0712 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */,
+			);
+			name = UI;
+			path = Resources/UI;
+			sourceTree = "<group>";
+		};
+		D4C5FD99184D2CE3006C6306 /* Forum */ = {
 			isa = PBXGroup;
 			children = (
 				D4F07D161848C37500ACB115 /* ForumMainPageViewController.h */,
@@ -120,16 +138,16 @@
 				D4C5FD96184D2CAB006C6306 /* ThreadViewController.h */,
 				D4C5FD97184D2CAB006C6306 /* ThreadViewController.m */,
 			);
-			name = forum;
+			path = Forum;
 			sourceTree = "<group>";
 		};
-		D4C5FD9A184D2CE9006C6306 /* news */ = {
+		D4C5FD9A184D2CE9006C6306 /* News */ = {
 			isa = PBXGroup;
 			children = (
 				D4C5FD9B184D2CFE006C6306 /* NewsMainPageViewController.h */,
 				D4C5FD9C184D2CFE006C6306 /* NewsMainPageViewController.m */,
 			);
-			name = news;
+			path = News;
 			sourceTree = "<group>";
 		};
 		D4CF91D21847D86B00E5CD4F = {
@@ -167,13 +185,12 @@
 		D4CF91E41847D86C00E5CD4F /* OnlinerReader */ = {
 			isa = PBXGroup;
 			children = (
+				D4CF91E51847D86C00E5CD4F /* Supporting Files */,
+				D46EAC6D184FA9FA00EA0712 /* Resources */,
 				D4F07D241848C57500ACB115 /* hpple */,
 				D4F07D151848C34500ACB115 /* ViewControllers */,
 				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
 				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
-				D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */,
-				D4CF91F01847D86C00E5CD4F /* Images.xcassets */,
-				D4CF91E51847D86C00E5CD4F /* Supporting Files */,
 			);
 			path = OnlinerReader;
 			sourceTree = "<group>";
@@ -210,12 +227,13 @@
 		D4F07D151848C34500ACB115 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D4C5FD9A184D2CE9006C6306 /* news */,
-				D4C5FD99184D2CE3006C6306 /* forum */,
+				D4C5FD9A184D2CE9006C6306 /* News */,
+				D4C5FD99184D2CE3006C6306 /* Forum */,
 				D4B36185184CF44300CC1CBF /* PreferencesViewController.h */,
 				D4B36186184CF44300CC1CBF /* PreferencesViewController.m */,
 			);
 			name = ViewControllers;
+			path = VIewControllers;
 			sourceTree = "<group>";
 		};
 		D4F07D241848C57500ACB115 /* hpple */ = {
@@ -228,7 +246,7 @@
 				D4F07D1F1848C56D00ACB115 /* TFHppleElement.m */,
 				D4F07D201848C56D00ACB115 /* XPathQuery.m */,
 			);
-			name = hpple;
+			path = hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
