@@ -10,6 +10,6 @@
 
 @interface ForumMainPageViewController : UITableViewController
 
-- (IBAction)onRefreshControllRelease:(id)sender;
+- (IBAction)onRefreshControlRelease:(id)sender;
 
 @end

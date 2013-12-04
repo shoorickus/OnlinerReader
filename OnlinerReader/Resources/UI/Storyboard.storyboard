@@ -79,7 +79,7 @@
                             </fragment>
                         </attributedString>
                         <connections>
-                            <action selector="onRefreshControllRelease:" destination="kRH-KH-VJV" eventType="valueChanged" id="9dg-Ai-Tx8"/>
+                            <action selector="onRefreshControlRelease:" destination="kRH-KH-VJV" eventType="valueChanged" id="9dg-Ai-Tx8"/>
                         </connections>
                     </refreshControl>
                     <connections>
