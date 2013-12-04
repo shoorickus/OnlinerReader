@@ -114,6 +114,7 @@
     NSURLSessionDataTask *sessionDownloadTask = [self.urlSession dataTaskWithURL:url
                                                                completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
 
+                                                                   // TODO: check response code
                                                                    if (error) {
                                                                        NSLog(@"Downloading Error: %@", [error localizedDescription]);
 
