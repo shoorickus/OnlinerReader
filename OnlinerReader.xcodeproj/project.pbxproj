@@ -134,7 +134,7 @@
 				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
 				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
 			);
-			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		D4C5FD99184D2CE3006C6306 /* Forum */ = {
