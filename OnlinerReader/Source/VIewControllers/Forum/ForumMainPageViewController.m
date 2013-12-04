@@ -7,6 +7,7 @@
 //
 
 #import "ForumMainPageViewController.h"
+#import "NetworkLoader.h"
 
 @interface ForumMainPageViewController ()
 
@@ -32,6 +33,14 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+
+    [[NetworkLoader sharedInstance] downloadDataWithURl:[NSURL URLWithString:@"http://forum.onliner.by"]
+                                          resultHandler:^(NSData *receivedData) {
+        NSLog(@"compelte!!!");
+        NSString *forum = [[NSString alloc] initWithData:receivedData encoding:NSUTF8StringEncoding];
+
+        NSLog(@"%@", forum);
+    }];
 }
 
 - (void)didReceiveMemoryWarning
