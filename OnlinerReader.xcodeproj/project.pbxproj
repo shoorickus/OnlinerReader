@@ -65,7 +65,7 @@
 		D4CF91EC1847D86C00E5CD4F /* OnlinerReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnlinerReader-Prefix.pch"; sourceTree = "<group>"; };
 		D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4CF91F01847D86C00E5CD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
+		D4CF91F01847D86C00E5CD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D4CF91F61847D86C00E5CD4F /* OnlinerReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlinerReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CF91F71847D86C00E5CD4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D4CF91FF1847D86C00E5CD4F /* OnlinerReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnlinerReaderTests-Info.plist"; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				D46EAC6E184FAA0E00EA0712 /* UI */,
 				D4CF91F01847D86C00E5CD4F /* Images.xcassets */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		D46EAC6E184FAA0E00EA0712 /* UI */ = {
@@ -122,8 +122,7 @@
 			children = (
 				D4CF920D1847D88300E5CD4F /* Storyboard.storyboard */,
 			);
-			name = UI;
-			path = Resources/UI;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		D46EAC6F184FABB300EA0712 /* Source */ = {
