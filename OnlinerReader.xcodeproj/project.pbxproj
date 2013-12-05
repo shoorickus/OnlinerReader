@@ -154,10 +154,10 @@
 			children = (
 				D4F07D241848C57500ACB115 /* hpple */,
 				D4F07D151848C34500ACB115 /* ViewControllers */,
-				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
-				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
 				C9C2F986E2F896D42806F2D7 /* Networking */,
 				C9C2FBBB3E6ECB9C7FF3865C /* Model */,
+				D4CF91ED1847D86C00E5CD4F /* AppDelegate.h */,
+				D4CF91EE1847D86C00E5CD4F /* AppDelegate.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
