@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PNd-6c-l8v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PNd-6c-l8v">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -66,7 +66,11 @@
                                 <segue destination="2jT-du-LYN" kind="modal" id="tB3-sK-6gy"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="profile" id="EFQ-nJ-OZn"/>
+                        <barButtonItem key="rightBarButtonItem" image="profile" id="EFQ-nJ-OZn">
+                            <connections>
+                                <segue destination="wbb-EU-zze" kind="modal" id="L1H-Z5-7C3"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="56P-b6-Y6E">
                         <autoresizingMask key="autoresizingMask"/>
@@ -260,6 +264,37 @@
             </objects>
             <point key="canvasLocation" x="426" y="756"/>
         </scene>
+        <!--Table View Controller - Profile-->
+        <scene sceneID="dcZ-lB-aZC">
+            <objects>
+                <tableViewController id="RLL-WP-Xxl" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YY9-8h-oVt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="7AW-bM-EkN">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7AW-bM-EkN" id="aSf-ci-anr">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RLL-WP-Xxl" id="I9a-yT-ATN"/>
+                            <outlet property="delegate" destination="RLL-WP-Xxl" id="tHK-fS-El9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Profile" id="rRv-14-kp7">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="haH-T3-EmZ"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X3B-bO-U1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="1364"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="pCj-iv-6Uq">
             <objects>
@@ -315,6 +350,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DH5-EM-F8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-477" y="-481"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UM3-Rc-KTe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wbb-EU-zze" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MBo-ck-fqr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RLL-WP-Xxl" kind="relationship" relationship="rootViewController" id="w6e-Dh-eM2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iuq-mY-NbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="1364"/>
         </scene>
     </scenes>
     <resources>
