@@ -10,6 +10,7 @@
 		C9C2F58CD6686177EE31A315 /* NetworkLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2F19275B1470856B51E08 /* NetworkLoader.m */; };
 		C9C2FB47CDE6CCA9C214FB46 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2F1AD37F142BA9BBE2086 /* MainPage.m */; };
 		D459467C184934AF00E76C99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D459467B184934AF00E76C99 /* README.md */; };
+		D46DAFE91850A71900599789 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DAFE81850A71900599789 /* UserProfileViewController.m */; };
 		D4B36187184CF44300CC1CBF /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B36186184CF44300CC1CBF /* PreferencesViewController.m */; };
 		D4C5FD92184D2A4F006C6306 /* ForumSectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C5FD91184D2A4F006C6306 /* ForumSectionsViewController.m */; };
 		D4C5FD95184D2C7D006C6306 /* SectionThreadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C5FD94184D2C7D006C6306 /* SectionThreadsViewController.m */; };
@@ -51,6 +52,8 @@
 		C9C2F1AD37F142BA9BBE2086 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
 		C9C2FF03FDAFC527934F1C82 /* NetworkLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkLoader.h; sourceTree = "<group>"; };
 		D459467B184934AF00E76C99 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D46DAFE71850A71900599789 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		D46DAFE81850A71900599789 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
 		D4B36185184CF44300CC1CBF /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
 		D4B36186184CF44300CC1CBF /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
 		D4C5FD90184D2A4F006C6306 /* ForumSectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumSectionsViewController.h; sourceTree = "<group>"; };
@@ -264,6 +267,8 @@
 				D4C5FD99184D2CE3006C6306 /* Forum */,
 				D4B36185184CF44300CC1CBF /* PreferencesViewController.h */,
 				D4B36186184CF44300CC1CBF /* PreferencesViewController.m */,
+				D46DAFE71850A71900599789 /* UserProfileViewController.h */,
+				D46DAFE81850A71900599789 /* UserProfileViewController.m */,
 			);
 			name = ViewControllers;
 			path = VIewControllers;
@@ -392,6 +397,7 @@
 				D4F07D221848C56D00ACB115 /* TFHppleElement.m in Sources */,
 				C9C2F58CD6686177EE31A315 /* NetworkLoader.m in Sources */,
 				C9C2FB47CDE6CCA9C214FB46 /* MainPage.m in Sources */,
+				D46DAFE91850A71900599789 /* UserProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

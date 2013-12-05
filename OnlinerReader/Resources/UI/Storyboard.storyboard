@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PNd-6c-l8v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PNd-6c-l8v">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -264,10 +264,10 @@
             </objects>
             <point key="canvasLocation" x="426" y="756"/>
         </scene>
-        <!--Table View Controller - Profile-->
+        <!--User Profile View Controller - Profile-->
         <scene sceneID="dcZ-lB-aZC">
             <objects>
-                <tableViewController id="RLL-WP-Xxl" sceneMemberID="viewController">
+                <tableViewController id="RLL-WP-Xxl" customClass="UserProfileViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YY9-8h-oVt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -288,7 +288,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Profile" id="rRv-14-kp7">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="haH-T3-EmZ"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="haH-T3-EmZ">
+                            <connections>
+                                <action selector="onCancelButtonPressed:" destination="RLL-WP-Xxl" id="Jl2-Ch-9Wm"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3B-bO-U1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
