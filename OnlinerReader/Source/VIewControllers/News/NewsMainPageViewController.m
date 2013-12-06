@@ -7,8 +7,13 @@
 //
 
 #import "NewsMainPageViewController.h"
+#import "SiteSectionsFactory.h"
+#import "ExtendedURL.h"
+#import "NewsListViewController.h"
 
-@interface NewsMainPageViewController ()
+@interface NewsMainPageViewController () {
+    NSArray *_groupsOfNews;
+}
 
 @end
 
@@ -26,7 +31,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    _groupsOfNews = [[SiteSectionsFactory sharedInstance] groupOfNews];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -44,36 +49,44 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return [_groupsOfNews count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"NewsCellIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    // Configure the cell...
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        ExtendedURL *currentUrl = [_groupsOfNews objectAtIndex:indexPath.row];
+        cell.textLabel.text = currentUrl.caption;
+        cell.detailTextLabel.text = currentUrl.help;
+    }
+    
     
     return cell;
 }
 
-/*
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    ExtendedURL *currentURL = [_groupsOfNews objectAtIndex:indexPath.row];
+    NewsListViewController *newsListViewController = [[NewsListViewController alloc] initWithURL:[currentURL url]];
+    [self.navigationController pushViewController:newsListViewController animated:YES];
+}
+
+
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
-    return YES;
+    return NO;
 }
-*/
+
 
 /*
 // Override to support editing the table view.
@@ -96,14 +109,13 @@
 }
 */
 
-/*
 // Override to support conditional rearranging of the table view.
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the item to be re-orderable.
-    return YES;
+    return NO;
 }
-*/
+
 
 /*
 #pragma mark - Navigation

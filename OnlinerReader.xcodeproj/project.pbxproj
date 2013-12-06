@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75FFAC811850D25700A8A042 /* GroupOfNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC801850D25700A8A042 /* GroupOfNewsCell.m */; };
+		75FFAC821850D25700A8A042 /* GroupOfNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC801850D25700A8A042 /* GroupOfNewsCell.m */; };
+		75FFAC861850D4A200A8A042 /* ExtendedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC851850D4A200A8A042 /* ExtendedURL.m */; };
+		75FFAC871850D4A200A8A042 /* ExtendedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC851850D4A200A8A042 /* ExtendedURL.m */; };
+		75FFAC8A1850D52F00A8A042 /* SiteSectionsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC891850D52F00A8A042 /* SiteSectionsFactory.m */; };
+		75FFAC8B1850D52F00A8A042 /* SiteSectionsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC891850D52F00A8A042 /* SiteSectionsFactory.m */; };
+		75FFAC8E1850DCAE00A8A042 /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC8D1850DCAE00A8A042 /* NewsListViewController.m */; };
+		75FFAC8F1850DCAE00A8A042 /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FFAC8D1850DCAE00A8A042 /* NewsListViewController.m */; };
 		C9C2F58CD6686177EE31A315 /* NetworkLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2F19275B1470856B51E08 /* NetworkLoader.m */; };
 		C9C2FB47CDE6CCA9C214FB46 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C2F1AD37F142BA9BBE2086 /* MainPage.m */; };
 		D459467C184934AF00E76C99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D459467B184934AF00E76C99 /* README.md */; };
@@ -47,6 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75FFAC7F1850D25700A8A042 /* GroupOfNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupOfNewsCell.h; path = ViewCells/GroupOfNewsCell.h; sourceTree = "<group>"; };
+		75FFAC801850D25700A8A042 /* GroupOfNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupOfNewsCell.m; path = ViewCells/GroupOfNewsCell.m; sourceTree = "<group>"; };
+		75FFAC841850D4A200A8A042 /* ExtendedURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtendedURL.h; path = Objects/ExtendedURL.h; sourceTree = "<group>"; };
+		75FFAC851850D4A200A8A042 /* ExtendedURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtendedURL.m; path = Objects/ExtendedURL.m; sourceTree = "<group>"; };
+		75FFAC881850D52F00A8A042 /* SiteSectionsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteSectionsFactory.h; path = Objects/SiteSectionsFactory.h; sourceTree = "<group>"; };
+		75FFAC891850D52F00A8A042 /* SiteSectionsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteSectionsFactory.m; path = Objects/SiteSectionsFactory.m; sourceTree = "<group>"; };
+		75FFAC8C1850DCAE00A8A042 /* NewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewController.h; sourceTree = "<group>"; };
+		75FFAC8D1850DCAE00A8A042 /* NewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewController.m; sourceTree = "<group>"; };
 		C9C2F0456D035D166E03E514 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
 		C9C2F19275B1470856B51E08 /* NetworkLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkLoader.m; sourceTree = "<group>"; };
 		C9C2F1AD37F142BA9BBE2086 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
@@ -117,6 +133,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75FFAC7E1850D1FC00A8A042 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				75FFAC7F1850D25700A8A042 /* GroupOfNewsCell.h */,
+				75FFAC801850D25700A8A042 /* GroupOfNewsCell.m */,
+			);
+			name = ViewCells;
+			sourceTree = "<group>";
+		};
+		75FFAC831850D33000A8A042 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				75FFAC841850D4A200A8A042 /* ExtendedURL.h */,
+				75FFAC851850D4A200A8A042 /* ExtendedURL.m */,
+				75FFAC881850D52F00A8A042 /* SiteSectionsFactory.h */,
+				75FFAC891850D52F00A8A042 /* SiteSectionsFactory.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		C9C2F986E2F896D42806F2D7 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +191,8 @@
 		D46EAC6F184FABB300EA0712 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				75FFAC831850D33000A8A042 /* Objects */,
+				75FFAC7E1850D1FC00A8A042 /* ViewCells */,
 				D4F07D241848C57500ACB115 /* hpple */,
 				D4F07D151848C34500ACB115 /* ViewControllers */,
 				C9C2F986E2F896D42806F2D7 /* Networking */,
@@ -185,6 +223,8 @@
 			children = (
 				D4C5FD9B184D2CFE006C6306 /* NewsMainPageViewController.h */,
 				D4C5FD9C184D2CFE006C6306 /* NewsMainPageViewController.m */,
+				75FFAC8C1850DCAE00A8A042 /* NewsListViewController.h */,
+				75FFAC8D1850DCAE00A8A042 /* NewsListViewController.m */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -387,7 +427,9 @@
 				D4F07D181848C37500ACB115 /* ForumMainPageViewController.m in Sources */,
 				D4CF91EF1847D86C00E5CD4F /* AppDelegate.m in Sources */,
 				D4C5FD98184D2CAB006C6306 /* ThreadViewController.m in Sources */,
+				75FFAC811850D25700A8A042 /* GroupOfNewsCell.m in Sources */,
 				D4C5FD9D184D2CFE006C6306 /* NewsMainPageViewController.m in Sources */,
+				75FFAC8E1850DCAE00A8A042 /* NewsListViewController.m in Sources */,
 				D4CF91EB1847D86C00E5CD4F /* main.m in Sources */,
 				D4C5FD95184D2C7D006C6306 /* SectionThreadsViewController.m in Sources */,
 				D4F07D211848C56D00ACB115 /* TFHpple.m in Sources */,
@@ -395,6 +437,8 @@
 				D4F07D231848C56D00ACB115 /* XPathQuery.m in Sources */,
 				D4B36187184CF44300CC1CBF /* PreferencesViewController.m in Sources */,
 				D4F07D221848C56D00ACB115 /* TFHppleElement.m in Sources */,
+				75FFAC8A1850D52F00A8A042 /* SiteSectionsFactory.m in Sources */,
+				75FFAC861850D4A200A8A042 /* ExtendedURL.m in Sources */,
 				C9C2F58CD6686177EE31A315 /* NetworkLoader.m in Sources */,
 				C9C2FB47CDE6CCA9C214FB46 /* MainPage.m in Sources */,
 				D46DAFE91850A71900599789 /* UserProfileViewController.m in Sources */,
@@ -406,6 +450,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4CF92041847D86C00E5CD4F /* OnlinerReaderTests.m in Sources */,
+				75FFAC871850D4A200A8A042 /* ExtendedURL.m in Sources */,
+				75FFAC8B1850D52F00A8A042 /* SiteSectionsFactory.m in Sources */,
+				75FFAC821850D25700A8A042 /* GroupOfNewsCell.m in Sources */,
+				75FFAC8F1850DCAE00A8A042 /* NewsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
